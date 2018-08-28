@@ -1,4 +1,10 @@
 
+本本上传的我本地调试代码，有部分修改
+源代码来自https://github.com/changmingxie/tcc-transaction/tree/master-1.2.x  2018-08-25 master分支
+数据库脚本未更新，请自己手动加上version 字段 字符型
+
+
+
 使用指南1.1.x:https://github.com/changmingxie/tcc-transaction/wiki/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%971.1.x
 
 1.1.x 源码分支：https://github.com/changmingxie/tcc-transaction/tree/master
@@ -47,5 +53,8 @@ tcc-transaction不和底层使用的rpc框架耦合，也就是使用doubbo,thri
 在运行sample前，需搭建好db环境，运行dbscripts目录下的create_db.sql建立数据库实例及表；还需修改各种项目中jdbc.properties文件中的jdbc连接信息。
 
 如有问题可以在本项目的github issues中提问。或是加微信:changmingxie，为便于识别，麻烦在备注中写下：名字＋所在公司名字＋是否线上使用，作者尽量回答疑问。 
+
+
+
 
 
